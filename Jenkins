@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'first.java'
+                sh 'https://github.com/Kannada5/Jenkins-Zero-To-Hero/first.java'
             }
         }
         stage('Run') {
